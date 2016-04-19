@@ -34,9 +34,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="zlc-hN-4he" secondAttribute="trailing" constant="8" id="8UB-nW-OAh"/>
                                     <constraint firstItem="zlc-hN-4he" firstAttribute="centerY" secondItem="SaY-TE-iUp" secondAttribute="centerY" id="diX-4D-b0m"/>
-                                    <constraint firstAttribute="height" constant="150" id="ohs-m0-MST">
-                                        <variation key="heightClass=compact" constant="75"/>
-                                    </constraint>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNa-Hd-fZa">
@@ -464,6 +461,7 @@
                             <constraint firstItem="I6S-BK-lMd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HHc-u9-yP7"/>
                             <constraint firstItem="I6S-BK-lMd" firstAttribute="top" secondItem="PNa-Hd-fZa" secondAttribute="bottom" id="KxG-8k-FSE"/>
                             <constraint firstItem="SaY-TE-iUp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MWz-Ko-bJS"/>
+                            <constraint firstItem="SaY-TE-iUp" firstAttribute="height" secondItem="PNa-Hd-fZa" secondAttribute="height" id="O1I-t4-hLf"/>
                             <constraint firstAttribute="trailing" secondItem="SaY-TE-iUp" secondAttribute="trailing" id="OPu-Pb-J4R"/>
                             <constraint firstItem="jqZ-0g-gbV" firstAttribute="top" secondItem="bbA-YA-b6Z" secondAttribute="bottom" id="OTg-bO-Ods"/>
                             <constraint firstItem="bbA-YA-b6Z" firstAttribute="height" secondItem="jqZ-0g-gbV" secondAttribute="height" id="RqL-V5-xhg"/>
@@ -477,6 +475,16 @@
                             <constraint firstItem="DcB-ax-s6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xwf-yI-FNx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jqZ-0g-gbV" secondAttribute="bottom" id="z2v-0D-Dr0"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="O1I-t4-hLf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="O1I-t4-hLf"/>
+                            </mask>
+                        </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="DcB-ax-s6x"/>

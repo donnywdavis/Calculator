@@ -5,7 +5,7 @@
 ### Issues
 * [ ] Number is appending to previous result after equal is pressed.
 * [ ] Invalid is returned on first run if no first number is selected.
-* [ ] After an operator is tapped and press "." it is not prefixed with 0.
+* [ ] After an operator is tapped and first button pressed is the decimal it is not prefixed with 0.
 * [ ] Foramtting of result.
 
 ### Solutions

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4171AD1C1CC6855C001D3CC0 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4171AD1B1CC6855C001D3CC0 /* CalculatorBrain.m */; };
 		417614FC1CC57BE700E41C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417614FB1CC57BE700E41C44 /* main.m */; };
 		417614FF1CC57BE700E41C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 417614FE1CC57BE700E41C44 /* AppDelegate.m */; };
 		417615021CC57BE700E41C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417615011CC57BE700E41C44 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4171AD1A1CC6855C001D3CC0 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		4171AD1B1CC6855C001D3CC0 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		417614F71CC57BE700E41C44 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417614FB1CC57BE700E41C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		417614FD1CC57BE700E41C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				417614FE1CC57BE700E41C44 /* AppDelegate.m */,
 				417615001CC57BE700E41C44 /* ViewController.h */,
 				417615011CC57BE700E41C44 /* ViewController.m */,
+				4171AD1A1CC6855C001D3CC0 /* CalculatorBrain.h */,
+				4171AD1B1CC6855C001D3CC0 /* CalculatorBrain.m */,
 				417615031CC57BE700E41C44 /* Main.storyboard */,
 				417615061CC57BE700E41C44 /* Assets.xcassets */,
 				417615081CC57BE700E41C44 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				417615021CC57BE700E41C44 /* ViewController.m in Sources */,
 				417614FF1CC57BE700E41C44 /* AppDelegate.m in Sources */,
+				4171AD1C1CC6855C001D3CC0 /* CalculatorBrain.m in Sources */,
 				417614FC1CC57BE700E41C44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +309,7 @@
 				417615101CC57BE700E41C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
